@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100D7FAB23DF188800DC2035 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D7FAA23DF188800DC2035 /* AboutViewController.swift */; };
 		105A62C223D6E61400DCF852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A62C123D6E61400DCF852 /* AppDelegate.swift */; };
 		105A62C423D6E61400DCF852 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A62C323D6E61400DCF852 /* ViewController.swift */; };
 		105A62C723D6E61400DCF852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105A62C523D6E61400DCF852 /* Main.storyboard */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		105A62BE23D6E61400DCF852 /* Slider Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D7FAA23DF188800DC2035 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		105A62BE23D6E61400DCF852 /* Bull's Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bull's Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		105A62C123D6E61400DCF852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		105A62C323D6E61400DCF852 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		105A62C623D6E61400DCF852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +48,7 @@
 		105A62BF23D6E61400DCF852 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				105A62BE23D6E61400DCF852 /* Slider Game.app */,
+				105A62BE23D6E61400DCF852 /* Bull's Eye.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +62,7 @@
 				105A62C823D6E61700DCF852 /* Assets.xcassets */,
 				105A62CA23D6E61700DCF852 /* LaunchScreen.storyboard */,
 				105A62CD23D6E61700DCF852 /* Info.plist */,
+				100D7FAA23DF188800DC2035 /* AboutViewController.swift */,
 			);
 			path = "Slider Game";
 			sourceTree = "<group>";
@@ -81,7 +84,7 @@
 			);
 			name = "Slider Game";
 			productName = "Slider Game";
-			productReference = 105A62BE23D6E61400DCF852 /* Slider Game.app */;
+			productReference = 105A62BE23D6E61400DCF852 /* Bull's Eye.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100D7FAB23DF188800DC2035 /* AboutViewController.swift in Sources */,
 				105A62C423D6E61400DCF852 /* ViewController.swift in Sources */,
 				105A62C223D6E61400DCF852 /* AppDelegate.swift in Sources */,
 			);
@@ -290,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emeecodes.cool-app.Slider-Game";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bull's Eye";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emeecodes.cool-app.Slider-Game";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bull's Eye";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
